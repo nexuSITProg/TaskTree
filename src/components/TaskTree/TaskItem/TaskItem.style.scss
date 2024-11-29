@@ -35,10 +35,15 @@
     }
 
     &__description,
-    &__priority,
     &__status {
         margin-bottom: 8px;
         color: #666;
+    }
+
+    &__description {
+        width: 80%;
+        word-wrap:normal;
+        word-break: break-all;
     }
 
     &__checkbox {
